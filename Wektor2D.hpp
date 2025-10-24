@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <cmath>
-#include <print>
+//#include <print>
 
 class Wektor2D
 {
@@ -12,7 +12,7 @@ class Wektor2D
 public:
 	Wektor2D() : x(0), y(0)
 	{
-		std::println("Wartosc wspolrzednej x: {}. Wartosc wspolrzednej y: {}.", x, y);
+//		std::println("Wartosc wspolrzednej x: {}. Wartosc wspolrzednej y: {}.", x, y);
 	}
 	
 	void setX(double new_x) { x = new_x; }
@@ -40,13 +40,13 @@ int main()
 	v1.setY(1.);
 	double x1 = v1.getX();
 	double y1 = v1.getY();
-	std::println("Wartosc wspolrzednej x1: {}. Wartosc wspolrzednej y1: {}.", x1, y1);
+//	std::println("Wartosc wspolrzednej x1: {}. Wartosc wspolrzednej y1: {}.", x1, y1);
 	Wektor2D v2{ 2., 2. };
 	std::println("Wartosc wspolrzednej x2: {}. Wartosc wspolrzednej y2: {}.", v2.getX(), v2.getY());
 	Wektor2D sum = v1 + v2;
-	std::println("Suma wektorow: x_suma = {}, y_suma = {}.", sum.getX(), sum.getY());
+//	std::println("Suma wektorow: x_suma = {}, y_suma = {}.", sum.getX(), sum.getY());
 	double prod = v1 * v2;
-	std::println("Iloczyn skalarny wektorow wynosi: {}.", prod);
+//	std::println("Iloczyn skalarny wektorow wynosi: {}.", prod);
 
 
 	/*
