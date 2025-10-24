@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <cmath>
-//#include <print>
+// #include <print>
 
 class Wektor2D
 {
